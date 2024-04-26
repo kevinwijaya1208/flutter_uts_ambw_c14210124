@@ -12,7 +12,7 @@ class CardMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.all(10.0),
-      decoration: BoxDecoration(boxShadow: [
+      decoration: BoxDecoration(borderRadius: BorderRadius.circular(5.0), boxShadow: [
           BoxShadow(
             color: Colors.grey.withOpacity(0.5),
             spreadRadius: 1,
@@ -24,6 +24,7 @@ class CardMenu extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ClipRRect(
+              borderRadius: BorderRadius.only(topLeft: Radius.circular(5.0), topRight: Radius.circular(5.0)),
                 child: Container(
                   width: 180,
                   height: 120,
