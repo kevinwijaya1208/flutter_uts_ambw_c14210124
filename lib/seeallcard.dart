@@ -45,7 +45,7 @@ class SeeAllCard extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 8.0),
+              padding: const EdgeInsets.only(left: 8.0, bottom: 8.0),
               child: Text(maxLines: 1, overflow: TextOverflow.ellipsis,
                 description,
                 style: TextStyle(color: Colors.grey, fontSize: 13 ),
