@@ -223,7 +223,7 @@ class _HomeState extends State<Home> {
               ),
             ),
             SizedBox(
-              height: 240,
+              height: 235,
               child: ListView.builder(
                 padding: const EdgeInsets.all(8.0),
                 itemCount: _title.length,
@@ -266,7 +266,7 @@ class _HomeState extends State<Home> {
               ),
             ),
             SizedBox(
-              height: 240,
+              height: 235,
               child: ListView.builder(
                 padding: const EdgeInsets.all(8.0),
                 itemCount: _title.length,
